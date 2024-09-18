@@ -1,0 +1,26 @@
+---
+title: "draft_manuscript"
+author: "Megan_Duchesne"
+date: "2024-09-15"
+output: pdf_document
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tinytex)
+library(trackdown)
+library(rmarkdown)
+library(grateful)
+library(tidyverse)
+library(rticles)
+library(trackdown)
+library(here)
+library(renv)
+```
+
+This is a draft of my manuscript.
+
+My project emulates @grant2006. The process of collecting morphological and survival data used in my study are described in detail by @conserva2006. Mark re-capture analysis estimate the re-sighting probability to be 0.988 [@wilson2007].
+
+# Reference List:
