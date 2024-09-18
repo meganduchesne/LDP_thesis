@@ -1,28 +1,23 @@
 ---
-title           : "My project preregistration"
-shorttitle      : "My preregistration"
+title           : "Study preregistration"
 date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
 
 author: 
   - name        : Megan Duchesne
-    affiliation : 1
-  - name        : Ernst-August Doelle
-    affiliation : "1,2"
+
 
 
 output: prereg::prereg_pdf
+bibliography: references.bib
 ---
 
 # Study Information
 
 ## Title
 
-```{=html}
 <!-- Provide the working title of your study. It may be the same title that you submit for publication of your final manuscript, but it is not a requirement. The title should be a specific and informative description of a project. Vague titles such as 'Fruit fly preregistration plan' are not appropriate.
 
-Example: Effect of sugar on brownie tastiness. -->
-```
-`r rmarkdown::metadata$title`
+Does novel competition drive selection on morphology?
 
 ## Description
 
@@ -31,7 +26,7 @@ Example: Effect of sugar on brownie tastiness. -->
 
 Example: Though there is strong evidence to suggest that sugar affects taste preferences, the effect has never been demonstrated in brownies. Therefore, we will measure taste preference for four different levels of sugar concentration in a standard brownie recipe to determine if the effect exists in this pastry. -->
 ```
-Enter your response here.
+Through their long-term, empirical study [@grant2006] provided one of the few examples of natural selection acting on traits in a native population in response to novel competition and despite their call for future studies to replicate their work, none have done so. Therefore, we will replicate [@grant2006] by testing for selection on bills of a population of song sparrows in response to novel competition for seeds with a non-native population of fox sparrows. 
 
 ## Hypotheses
 
