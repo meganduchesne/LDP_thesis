@@ -13,4 +13,4 @@ morphology <- read.xlsx(file_morphology)
 
 
 # Write the data to a CSV in the rawdata folder
-write.csv(morphology, file = "Project/00_Raw_data/morphology.csv", row.names = FALSE)
+write.csv(morphology, file = "Project/00_Raw_data/standardized_traits_sep11.csv", row.names = FALSE)
