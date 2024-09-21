@@ -11,7 +11,8 @@ bibliography: references.bib
 
 Study lead: **Megan Duchesne**
 
-Email: megan.duchesne13@gmail.com
+Email:
+[megan.duchesne13\@gmail.com](mailto:megan.duchesne13@gmail.com){.email}
 
 Principal Investigator: Peter Arcese
 
@@ -28,13 +29,15 @@ by a dominant competitor (Paserella unalaschcensis) 4 decades ago.
 Funding: This study was funded by NSERC-CGSM and Werner and Hildegarde
 Hesse
 
-#Location X̱OX̱ DEȽ / Mandarte Island., B.C. (48.6329°, longitude
--123.2859°)
+#Location
 
-#Duration Data collection began in 1975 and has continued annually
-since. This study uses morphological data from 1975-2023. Over-winter
-survival in the last year of the study relied on data from the spring of
-2024.
+X̱OX̱ DEȽ / Mandarte Island., B.C. (48.6329°, longitude -123.2859°)
+
+#Duration
+
+Data collection began in 1975 and has continued annually since. This
+study uses morphological data from 1975-2023. Over-winter survival in
+the last year of the study relied on data from the spring of 2024.
 
 #Data collection
 
