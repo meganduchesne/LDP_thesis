@@ -11,7 +11,7 @@ bibliography: references.bib
 
 Study lead: **Megan Duchesne**
 
-Email: megan.duchesne13\@gmail.com
+Email: megan.duchesne13@gmail.com
 
 Principal Investigator: Peter Arcese
 
@@ -39,7 +39,7 @@ survival in the last year of the study relied on data from the spring of
 #Data collection
 
 Methods for monitoring and collecting data on the song sparrows of
-Mandarte Island are described in detail in [@conserva2006]
+Mandarte Island are described in detail in Smith et al. (2006).
 
 ##Survival status
 
