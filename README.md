@@ -7,12 +7,26 @@ bibliography: references.bib
 
 #WELCOME
 
-##Study information This project is based on my MSc thesis work which
-uses 49 years of morphological and survival data for a population of
-song sparrows (Melospiza melodia) on Mandarte Island to test whether
-selection has occurred on traits linked to competitive ability in
-response to invasion by a dominant competitor (Paserella unalaschcensis)
-4 decades ago.
+### Contact Information
+
+Study lead: **Megan Duchesne**
+
+Email: megan.duchesne13\@gmail.com
+
+Principal Investigator: Peter Arcese
+
+Institution: The University of British Columbia
+
+##Study information
+
+This project is based on my MSc thesis work which uses 49 years of
+morphological and survival data for a population of song sparrows
+(Melospiza melodia) on Mandarte Island to test whether selection has
+occurred on traits linked to competitive ability in response to invasion
+by a dominant competitor (Paserella unalaschcensis) 4 decades ago.
+
+Funding: This study was funded by NSERC-CGSM and Werner and Hildegarde
+Hesse
 
 #Location X̱OX̱ DEȽ / Mandarte Island., B.C. (48.6329°, longitude
 -123.2859°)
