@@ -21,7 +21,7 @@ surv<-read.xlsx("Project/00_Raw_data/survival_LDP.xlsx", na.strings=c(".", "NA")
 # rearrange the columns to see the most relevant information easier and drop columns that aren't useful to 
 # this study. I'm dropping year1 and expt here 
 surv_selected<-surv %>% 
-  select(ninecode, year2, surv, sex, age, natal_yr, is, cens)
+  select(ninecode, year2, surv, age, natal_yr, is, cens)
 
 
 # lets clean/check the remaining 8 columns now: 
@@ -31,10 +31,21 @@ surv_selected<-surv %>%
 # ninecode
 
 #check that each bird is only entered once per year
-surv %>% 
+surv_selected %>% 
   group_by(year2, ninecode) %>% 
   summarise(count=n()) %>% 
   filter(count>1) #good, 0 occasions where there is more than 1 ninecode/year
+
+###################################
+# year2
+
+# year2 should be renamed to year for clarity
+surv_selected<-surv_selected %>% 
+  rename(Year=year2)
+
+# years should range from 1975-2023
+surv_selected %>% #use assertr within bounds to check age range
+  verify(within_bounds(1975,2023)(Year)) #good, execution was not stopped
 
 
 ###################################

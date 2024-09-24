@@ -17,6 +17,11 @@ library(rticles)
 library(trackdown)
 library(here)
 library(renv)
+library(dplyr)
+library(openxlsx)
+library(tidyr)
+library(assertr)
+
 ```
 
 This is a draft of my manuscript.
