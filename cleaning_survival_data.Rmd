@@ -1,0 +1,22 @@
+---
+title: "cleaning_survival_data"
+author: "Megan_Duchesne"
+date: "2024-09-23"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#read in survival data
+
+# do all cleaning steps
+
+# show that I'm checking for things like no 1s or 0s after each other
+
+# merge with current survival file
+
+# create a table showing survival rate in each age / sex class?
+
+# merge with morphology table to create a figure? 
