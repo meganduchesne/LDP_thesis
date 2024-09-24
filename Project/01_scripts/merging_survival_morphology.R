@@ -1,5 +1,7 @@
 # Mon Sep 23 20:14:55 2024 ------------------------------
 
+# Megan Duchesne
+
 # The purpose of this script is to merge the morphology and survival files together in preparation for selection analyses
 
 #Load libraries
